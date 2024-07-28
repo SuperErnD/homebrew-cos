@@ -40,7 +40,7 @@ class LinuxKernelRequirement < Requirement
   end
 end
 
-class Glibc < Formula
+class GlibcAT240 < Formula
   desc "GNU C Library"
   homepage "https://www.gnu.org/software/libc/"
   url "https://ftp.gnu.org/gnu/glibc/glibc-2.40.tar.gz"
